@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+*{
+    font-family: 'Sora', sans-serif;
+   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #13b95b;
+  }
+
+  .active{
+    background-color: #13b95b;
+  }
+.inquiry-background{
+    background-image: url(../Images/download.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+  form{
+    border-radius: 24px;
+    width: fit-content;
+    padding: 2rem;
+    background-color: white;
+    opacity: 0.85;
+}
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value based on your requirements */
+  }
+input{
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    background-color: white;
+}
+
+button{
+    background-color: rgb(52, 203, 52);
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 24px;
+    font-weight: bold;
+
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: 1s all ease;
+}
+
+.resort-name{
+
+  text-align: center;
+}
+
+.resort-logo-png{
+  margin-bottom: 15px;
+  width: 15%;
+
+}
+.overview-pic{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overview-pic img{
+  border-radius: 24px;
+  margin-top: 25px;
+}
+
+.description{
+  border: 0.5px solid black;
+  margin: 30px 10px 0px 10px;
+  padding: 10px;
+  border-radius: 24px;
+  box-shadow: 5px 5px #888888;
+  height: 200px;
+  
+  
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Two equal-width columns */
+  grid-gap: 10px; /* Gap between grid cells */
+ 
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.grid-item {
+  border: 1px solid black;
+  border-radius: 24px;
+  padding: 10px;
+  font-weight: bolder;
+
+  background-color: #ffffffb0;
+
+
+
+}
+
+.grid-container img{
+  display: block;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.grid-item:hover {
+  transition: 1s all ease;
+  transform: scale(1.02);
+
+
+
+}
+
+.facilities-body{
+  background-image: url(../Images/mandaram-eco-resort.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.grid-container img:hover{
+  transition: 1s all ease;
+  transform: scale(1.04);
+}
+
+.offer-card{
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 24px;
+
+ 
+  display: flex;
+  width: 98.12%;
+  height: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.589);
+
+
+}
+
+.offer-card img{
+  border-radius: 24px;
+}
+
+.package-img img{
+
+  width: 95%;
+
+
+}
+.package-description{
+  text-align: center;
+  background-color: white;
+  padding: 7px;
+  width: 80%;
+  border-radius: 24px;
+  box-shadow: 5px 5px 5px 5px #d4d4d4;
+
+}
+
+.package-description p{
+  text-align: justify;
+
+}
+
+.offer-background{
+  background-image: url(../Images/mandaram-eco-resort\ \(12\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

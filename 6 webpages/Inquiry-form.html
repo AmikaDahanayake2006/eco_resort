@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Inquiry</title>
+</head>
+<body class="inquiry-background">
+    <ul>
+        <li><a  href="home.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="accomadations.html">Accomadations</a></li>
+        <li><a class="active" href="Inquiry-form.html">Inquiry</a></li>
+        <li><a href="offers.html">Offers</a></li>
+      </ul>
+
+    <!-- Inquiry form -->
+   
+    <div class="centered-form ">
+        <form id="form">
+            <label for="name">Name : </label>
+            <input type="text" id="name" name="name" required><br><br>
+        
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required ><br><br>
+        
+            <label for="phone">Phone :</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+        
+            <label for="arrival_date">Arrival Date:</label>
+            <input type="date" id="arrival_date" name="arrival_date" required ><br><br>
+        
+            <label for="departure_date">Departure Date:</label>
+            <input type="date" id="departure_date" name="departure_date" required ><br><br>
+        
+            <label for="number_of_guests">Number of Guests:</label>
+            <input type="number" id="number_of_guests" name="number_of_guests" required ><br><br>
+        
+            <label for="additional_info">Additional Information:</label><br>
+            <textarea id="additional_info" name="additional_info" rows="4" cols="50"></textarea><br><br>
+        
+            <button type="submit">Submit</button>
+
+    </form>
+    </div>
+        
+</body>
+<script src="../Javascript/inquiry.js"></script>
+</html>
